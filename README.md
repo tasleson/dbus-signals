@@ -12,7 +12,7 @@ Basic performance testing for dbus signals
   * `# ./spamsignals client`
 5. Run the testcase
   * `# python test.py`
-6. Look at stdout form test client
+6. Look at stdout from test client
 ```
 32,0.000032,53504.235126,1.632820, 10000
 64,0.000031,53895.914153,3.289546, 10000
