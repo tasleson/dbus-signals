@@ -30,3 +30,8 @@ Basic performance testing for dbus signals
 ```
 Columns are:
 payload byte size, average diff time, messages/sec, MiB/sec, Number of signals received
+
+#### Notes:
+* To run python server/client verson change ./spamsignals to ./spamsignals.py
+* To enable kdbus, append kdbus=1 to kernel command line while having the kdbus kernel module located somewhere where is can be found, like: ```/lib/modules/`uname -r`/kernel/ipc/kdbus/```
+
