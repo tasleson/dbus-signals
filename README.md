@@ -1,5 +1,5 @@
 # dbus-signals
-Basic performance testing for dbus signals
+Basic performance testing for dbus signals, see [blog posting](http://blog.asleson.org/2015/09/01/d-bus-signaling-performance/) for more information.
 
 #### Trying it out
 1. Copy the configuration file to allow service to be run on the system bus
