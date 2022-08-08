@@ -15,5 +15,5 @@ for i in range(5, 18):
     signals.SpamSignal(10000, size)
     signals.SpamSignal(10, 2)
     end = time.time()
-    print 'i= %d, time= %f' % (size, float(end - start))
+    print('i= %d, time= %f' % (size, float(end - start)))
 

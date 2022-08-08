@@ -1,8 +1,8 @@
-#!/bin/env python2
+#!/bin/env python3
 import dbus
 import dbus.service
 import dbus.mainloop.glib
-import gobject
+from gi.repository import GLib
 import sys
 import time
 import random
@@ -105,7 +105,7 @@ if __name__ == '__main__':
         sys.exit(1)
 
     try:
-        loop = gobject.MainLoop()
+        loop = GLib.MainLoop()
         loop.run()
     except KeyboardInterrupt:
         if server:
